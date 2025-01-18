@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "timekeeper",
+  "version": "${version}",
+  "depends": {
+    "fishmodloader": ">=3.3.2"
+  },
+  "environment": "server",
+  "name": "TimeKeeper",
+  "description": "",
+  "authors": [
+    "Debris"
+  ],
+  "entrypoints": {
+    "server": [
+      "com.github.Debris.timekeeper.TimeKeeper"
+    ]
+  },
+  "mixins": [
+    "timekeeper.mixins.json"
+  ],
+  "accessWidener": "timekeeper.accesswidener"
+}

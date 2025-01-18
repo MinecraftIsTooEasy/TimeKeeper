@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.github.Debris.timekeeper.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "target": "DEFAULT",
+  "minVersion": "0.8.3",
+  "mixins": [
+    "DedicatedServerMixin",
+    "WorldInfoSharedMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
